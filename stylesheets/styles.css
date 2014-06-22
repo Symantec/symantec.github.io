@@ -74,12 +74,14 @@ pre {
 table {
   width:100%;
   border-collapse:collapse;
+  bgcolor=gray
+  cellspacing="30"
 }
 
 th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  text-align:center;
+  padding:15px 30px;
+  border-bottom:0px solid #e5e5e5;
 }
 
 dt {
