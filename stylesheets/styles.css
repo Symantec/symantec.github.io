@@ -72,9 +72,11 @@ pre {
 }
 
 table {
-  width:100%;
-  border-collapse:collapse;
-  padding: 30px
+  width: 100%;
+  border-spacing: 30px;
+  border: 2px solid #a1a1a1;
+  background-color: #dddddd;
+  border-radius: 5px;
 
 }
 
@@ -82,10 +84,6 @@ th, td
 {
   text-align:center;
   padding:15px 30px;
-  border: 2px solid #a1a1a1
-  background-color:#dddddd
-  border-spacing=30px
-  border-radius:5px
 }
 
 dt {
