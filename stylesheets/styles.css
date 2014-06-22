@@ -74,7 +74,9 @@ pre {
 table {
   width:100%;
   border-collapse:collapse;
-  cellspacing="30"
+  padding: 30px
+  border-spacing=30px
+  border-radius:5px
 }
 
 th, td {
