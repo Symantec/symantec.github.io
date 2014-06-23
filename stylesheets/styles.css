@@ -74,7 +74,7 @@ pre {
 table { 
   border: 3px solid #ddd;
   border-collapse: separate;
-  border-left: 2px;
+  border-left: 3px;
   border-radius: 6px;
   border-spacing: 5px;
 }
@@ -84,11 +84,13 @@ thead {
   border-color: inherit;
   border-collapse: separate;
 }
+border-spacing: 5px;
 tr {
   display: table-row;
   vertical-align: inherit;
   border-color: inherit;
 }
+
 th, td {
   padding: 15px 14px 16px 14px; 
   text-align: center;
