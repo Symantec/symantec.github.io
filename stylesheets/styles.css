@@ -74,7 +74,6 @@ pre {
 table { 
   border: 3px solid #ddd;
   border-collapse: separate;
-  border-left: 3px;
   border-radius: 6px;
   border-spacing: 5px;
 }
