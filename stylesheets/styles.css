@@ -76,7 +76,7 @@ table {
   border-collapse: separate;
   border-left: 0;
   border-radius: 4px;
-  border-spacing: 0px;
+  border-spacing: 5px;
 }
 thead {
   display: table-header-group;
