@@ -76,14 +76,13 @@ table {
   border-collapse: separate;
   border-left: 0;
   border-radius: 4px;
-  border-spacing: 5px;
+  border-spacing: 0px;
 }
 thead {
   display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
   border-collapse: separate;
-  border-spacing: 5px;
 }
 tr {
   display: table-row;
@@ -92,8 +91,8 @@ tr {
 }
 th, td {
   padding: 5px 4px 6px 4px; 
-  text-align: left;
-  vertical-align: top;
+  text-align: center;
+  vertical-align: center;
   border-left: 1px solid #ddd; 
 
 dt {
