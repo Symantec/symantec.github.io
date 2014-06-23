@@ -83,6 +83,7 @@ thead {
   vertical-align: middle;
   border-color: inherit;
   border-collapse: separate;
+  border-spacing: 5px;
 }
 tr {
   display: table-row;
