@@ -80,7 +80,7 @@ table {
   background-color: #d1d1d1;
   display: block;
   float: left;
-  padding: 10px
+  margin:0 10px 10px 0;
 }
 thead {
   vertical-align: middle;
