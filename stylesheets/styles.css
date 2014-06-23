@@ -100,7 +100,9 @@ th, td {
   padding: 15px 14px 16px 14px; 
   text-align: center;
   vertical-align: center;
-  border-left: 2px solid #ddd; 
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;
+  font-weight:300
 
 dt {
   color:#444;
