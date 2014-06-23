@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
   <head>
+  <script>
+function alignImg()
+{
+document.getElementById("logo").align="center";
+}
+</script>
     <img src="http://www.symantec.com/content/en/us/about/images/news/logo-symantec-1.jpg" align=table margin=30px>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -18,7 +24,9 @@
         <p class="view"><a href="https://github.com/Symantec">View My GitHub Profile</a></p>
 
       </header>
-      <section>
+        <img id="logo" src="logo-symantec-1.jpg">
+<input type="button" onclick="alignImg()" value="Align Image">
+<section>
         <h3>
         
 <table>
@@ -54,4 +62,7 @@
 
     
   </body>
+  
+  
 </html>
+
