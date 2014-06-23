@@ -76,12 +76,10 @@ table {
   border-collapse: separate;
   border-radius: 6px;
   border-spacing: 5px;
+  background-color: #d1d1d1;
 }
 thead {
-  display: table-header-group;
   vertical-align: middle;
-  border-color: inherit;
-  border-collapse: separate;
 }
 border-spacing: 5px;
 tr {
