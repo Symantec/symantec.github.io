@@ -1,73 +1,315 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Symantec.github.io by Symantec</title>
-  </head>
+<html lang="en">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Symantec Open Source Software">
+    <meta name="author" content="Symantec">
 
-        <header>
-          <h1>Symantec.github.io</h1>
-          <h2>Open Source Projects Built by Symantec</h2>
-        </header>
+    <title>Symantec Open Source Software</title>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/Symantec" id="view-on-github" class="button"><span>View on GitHub</span></a>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+			<img src="img/logo.jpg" alt="" class="img-responsive img-circle" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#soss">SOSS</a></li>
+		<li><a href="#team">Meet The Team</a></li>
+		<li><a href="#community">Community</a></li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+	<!-- Section: intro -->
+    <section id="intro" class="intro"> 
+	
+		<div class="slogan">
+			<h2>Symantec Open Source Software</h2>
+                        <h4>Contributing to the Open Source World</h4>
+		</div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                	<div class="wow bounceInUp" data-wow-delay="0.2s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+                                                <h5>Getting Started</h5>
+                        			<p class="subtitle">To get started with SOSS just click on any of the projects you are interested into and clone away.<br>
+Or you can use our docker images to test all our projects.</p>
+                    			</div>
+                		</div>
+          		</div>
+            	</div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="wow bounceInUp" data-wow-delay="0.2s">
+                                <div class="team boxed-black">
+                                        <div class="inner">
+                                                <h5>Symantec Contributions:</h5>
+                                                <p class="subtitle"><font color="white"><ul>
+<li>Openstack</li>
+<li>Apache Hadoop</li>
+<li>Mozilla Heka</li>
+<li>Fog</li>
+<li>OpenContrail</li>
+</ul>
+</font>
+</p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+    </section>
+	<!-- /Section: intro -->
+
+	<!-- Section: soss -->
+    <section id="soss" class="home-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>SOSS</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+
+<!--- 
+Each Row of boxes is exactly that a row of boxes..... 
+Each box represents a major repository.... 
+Please dont add forks of other repositories to this page...
+This is for symantec homegrown projects....
+And please name your project with a unique and nice name... 
+something like.... The Watcher 
+and not stuff like.... my-cool-monitoring-tool
+--->
+
+<!---- Row of boxes --->
+        <div class="row">
+            	<div class="col-xs-6 col-sm-3 col-md-3">
+			<div class="wow bounceInUp" data-wow-delay="0.2s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+						<h5>Load Runner</h5>
+                        			<p class="subtitle">Benchmark your openstack networks</p>
+                        			<div align="center"><a href="https://github.com/Symantec/load-runner"><img src="img/works/loadrunner.jpg" alt="" class="img-responsive thumbnail" /></a></div>
+                    			</div>
+                		</div>
+			</div>
+            	</div>
+		<div class="col-xs-6 col-sm-3 col-md-3">
+			<div class="wow bounceInUp" data-wow-delay="0.5s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+						<h5>OsPurge</h5>
+                        			<p class="subtitle">Cleaning your openstack project resources</p>
+                        			<div align="center"><a href="https://github.com/Symantec/ospurge"><img src="img/works/opspurge.jpg" alt="" class="img-responsive thumbnail" /></a></div>
+                    			</div>
+                		</div>
+			</div>
+            	</div>
+		<div class="col-xs-6 col-sm-3 col-md-3">
+			<div class="wow bounceInUp" data-wow-delay="0.8s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+						<h5>Rita</h5>
+                        			<p class="subtitle">Deploy puppet based architectures or clusters of applications</p>
+                        			<div class="avatar"><a href="https://github.com/Symantec/rita"><img src="img/integration/3.jpg" alt="" class="img-responsive img-circle" /></a></div>
+                    			</div>
+                		</div>
+			</div>
+            	</div>
+		<div class="col-xs-6 col-sm-3 col-md-3">
+			<div class="wow bounceInUp" data-wow-delay="1s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+						<h5>Dominator</h5>
+                        			<p class="subtitle">Image Config Management and Deployment System</p>
+                        			<div align="center"><a href="https://github.com/Symantec/dominator"><img src="img/works/dominator.jpg" alt="" class="img-responsive thumbnail" /></a></div>
+                    			</div>
+                		</div>
+			</div>
+            	</div>
+          </div>	
+<!--- End of lines of boxes -->	
+<br><br>
+<!---- Row of boxes --->
+        <div class="row">
+            	<div class="col-xs-6 col-sm-3 col-md-3">
+			<div class="wow bounceInUp" data-wow-delay="0.2s">
+                		<div class="team boxed-grey">
+                    			<div class="inner">
+						<h5>Continuous</h5>
+                        			<p class="subtitle">Continuous Self-Service Integration, Deployment and Validation System</p>
+                        			<div align="center"><a href="https://github.com/Symantec/continuous"><img src="img/works/continuous.jpg" alt="" class="img-responsive thumbnail" /></a></div>
+                    			</div>
+                		</div>
+			</div>
+            	</div>
+          </div>	
+<!--- End of lines of boxes -->	
+
+
+
+	</div>
+	</section>
+	<!-- /Section: soss -->
+	
+
+        <!-- Section: team -->
+    <section id="team" class="home-section text-center bg-gray">
+
+                <div class="heading-about">
+                        <div class="container">
+                        <div class="row">
+                                <div class="col-lg-8 col-lg-offset-2">
+                                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                                        <div class="section-heading">
+                                        <h2>Meet The Team</h2>
+                                        <i class="fa fa-2x fa-angle-down"></i>
+
+                                        </div>
+                                        </div>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                        <div class="col-lg-2 col-lg-offset-5">
+                                <hr class="marginbot-50">
+                        </div>
+                </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                                <div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+                                        <div class="service-icon">
+                                                <h1><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span></h1>
+                                        </div>
+                                        <div class="service-desc">
+                                                <h5>CPE - Cloud Platform Engineering</h5>
+                                                <p>Iaas - Analytics - Object Storage - Monitoring - Metrics - Logging - CI - CD - Paas.</p>
+                                        </div>
+                </div>
+                                </div>
+            </div>
+        </div>
+                </div>
         </section>
+        <!-- /Section: download -->	
 
-        <hr>
+	<!-- Section: community -->
+    <section id="community" class="home-section text-center">
+		<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Community</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
 
-        <section id="main_content">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p >Follow us and JOIN the community</p>
       </div>
     </div>
-  </body>
+    <div class="row">
+		<div class="col-lg-12">
+                            <h1><span class="social-facebook"><a href="https://www.facebook.com/Symantec" target="_blank"><i class="fa fa-facebook"></i></a></span></h1>
+                            <h1><span class="social-twitter"><a href="https://twitter.com/symantec" target="_blank"><i class="fa fa-twitter"></i></a></span></h1>
+                            <h1><span class="social-github"><a href="http://symantec.github.io/" target="_blank"><i class="fa fa-github"></i></a></span></h1>
+                            <h1><span class="social-google"><a href="https://plus.google.com/+symantec/posts" target="_blank"><i class="fa fa-google-plus"></i></a></span></h1>
+		</div>
+    </div>	
+
+		</div>
+	</section>
+	<!-- /Section: community -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow shake" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Copyright 2015 - Symantec. All rights reserved.</p>
+                                        <p>Theme provided by Squad</p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
